@@ -1,0 +1,63 @@
+.container{
+    border-radius: 8px;
+    border: solid;
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.progressBar {
+  height: 22px;
+  width: 470px;
+  border-radius: 20px;
+  background-color: hsl(62, 19%, 63%);
+}
+.innerPb {
+  height: 22px;
+  width: 350px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  background-color: #7647ee;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 250px;
+  flex-wrap: wrap;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex-wrap: wrap;
+}
+
+.span {
+    margin-top: -15px;
+}
+.pbContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; 
+    justify-content: center;
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+    background-color: #7647ee;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 34px;
+}
+.allPb{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
