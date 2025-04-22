@@ -1,3 +1,7 @@
+body{
+    background-color: #e5e5e5;
+}
+
 .container{
     border-radius: 8px;
     border: solid;
@@ -60,4 +64,44 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.buttonGroup{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.btnPrimary{
+    background-color: #7647ee;
+    color: white;
+    width: 200px;
+}
+.btnWarning{
+    background-color: #f4b14c;
+    color: white;
+    width: 200px;
+}
+.btnOutline{
+    background-color: white;
+    border: 1px solid #7647ee;
+    width: 200px;
+    color: #7647ee;
+}
+.btnMore{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    border: 1px solid #7647ee;
+    color: #7647ee;
+    justify-content: center;
 }
